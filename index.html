@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Welcome to Mailchimp</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Welcome to Mailchimp</h1>
+        <h2>Find your people. Engage your customers. Build your brand. <br/>Do it all with Mailchimp's Marketing Platform. Already have an account?</h2>
+        <img src="mailchimp.png" alt="Mailchimp" align="right"></img>
+        <form method="post" action="/nombre">
+            <a href="http://mailchimp.com">Sign up</a>
+            <div class="name">
+              <label for="name">Name:</label><br/>
+              <input class="form-input form-input-text" type="text" name="name" required>
+            </div>
+            <div class="lastname">
+              <label for="nick">Last name:</label><br/>
+              <input class="form-input form-input-text" type="text" name="nick" minlength="2" maxlength="8">
+            </div>
+            <div class="age">
+              <label for="age">Age:</label><br/>
+              <input class="form-input form-input-number" type="number" name="age" min="10" max="99">
+            </div>
+            <div class="email">
+              <label for="email">Email:</label><br/>
+              <input class="form-input form-input-number" type="email" name="email" required>
+            </div>
+            <div class="password">
+                <label for="password">Password:</label><br/>
+                <input class="form-input form-input-number" type="password" name="password" required>
+              </div>
+            <ul>
+              <li>One lowercase character</li>
+              <li>One uppercase character</li>
+              <li>One number</li>
+              <li>One special character</li>
+              <li>8 characters minimum</li>
+            </ul>
+            <div class="button">
+                <input type="radio"/>I don't want to receive emails about new Mailchimp products, best practices, or special offers.
+                </div>
+            <div class="button1">
+            <button class="button2" type="submit">Sign up</button>
+              </div>
+    </body>
+    <footer>By clicking "Sign Up" button, you're creating a Mailchimp account, and you agree to Mailchimp's <strong>Terms of Use</strong> and <strong>Privacy Police</strong>.</footer>
+</html>
